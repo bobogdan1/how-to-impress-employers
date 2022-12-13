@@ -1,0 +1,33 @@
+.input-with-label {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#calculator {
+	border: 2px solid orange;
+	width: 350px;
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+#output {
+	display: none;
+	margin: 0 auto;
+}
+
+h3 {
+	text-align: center;
+}
+
+.exercise {
+	padding: 10px 0;
+}

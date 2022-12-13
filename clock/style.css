@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  /*background-color: gray; */
+  height: 400px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 50%;
+  border: 5px solid gray;
+}
+.hour,
+.min,
+.sec {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 5px;
+  width: 7%;
+  background-color: black;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+}
